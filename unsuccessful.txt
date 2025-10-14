@@ -1,7 +1,0 @@
-DMSO_FS_0923_133114.csv
-FS-Aceton_220921_124032.csv
-230315_FS_5-3.csv
-230223_FS_5-3.csv
-230209_FS_2-3.csv
-acetonfs_0924_150458.csv
-230530FS1-3.csv
