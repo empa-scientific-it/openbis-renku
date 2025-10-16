@@ -1,0 +1,22 @@
+# pyproject.toml
+# Converted from requirements.txt for use with 'uv' (PEP 621 project table)
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openbis-renku"
+version = "0.0.0"
+description = "Dependencies converted from requirements.txt for use with uv"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "pybis==1.37.4",
+  "matplotlib==3.10.7",
+  "pandas==2.3.3",
+]
+
+# Notes:
+# - If requirements.txt contained -r/--editable/URL entries they may need manual review.
+# - Use `uv install` (or `uv sync` depending on uv version) to install from this pyproject.
