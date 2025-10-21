@@ -15,7 +15,14 @@ dependencies = [
   "pybis==1.37.4",
   "matplotlib==3.10.7",
   "pandas==2.3.3",
+  "nbformat>=5.10.4",
+  "nbconvert>=7.16.6",
 ]
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["data", "data.*", "datasets", "datasets.*"]
 
 # Notes:
 # - If requirements.txt contained -r/--editable/URL entries they may need manual review.
